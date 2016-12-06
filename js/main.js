@@ -3,6 +3,16 @@ $( document ).ready(function() {
   var listEntry = 0;
   var newItem = $('input').val();
 
+  //Disable form enter
+  $("form").on('keyup keypress', function(e) {
+    var keyCode = e.keyCode || e.which;
+    if (keyCode === 13) {
+      e.preventDefault();
+
+      return false;
+    }
+  });
+
   //Highlight input field on click
   $("input").focus(function(){
     $(this).addClass("outlineClick");
