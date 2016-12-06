@@ -17,7 +17,7 @@ form {
 input {
   padding: 10px 0;
   font-size: 18px;
-  text-align: left;
+  text-align: center;
   vertical-align: middle;
   margin-bottom: 12px;
   border-radius: 10px;
@@ -42,7 +42,7 @@ ol {
 
 #container {
   width: 400px;
-  height: auto;
+  height: 550px;
   margin: 0 auto;
   padding-top: 15px;
   vertical-align: middle;
@@ -52,7 +52,7 @@ ol {
   background-color: #fcdf43;
   border-radius: 10px;
   border: 1px solid black;
-  overflow-x: auto;
+  overflow: auto;
 }
 
 #addButton {
@@ -64,6 +64,27 @@ ol {
   background-color: #9db8e4;
   text-align: center;
   border: 3px white solid;
+}
+
+#addButton:hover {
+  cursor: pointer;
+}
+
+#clearButton {
+font-family: "Oswald", sans-serif;
+border-radius: 5px;
+background-color: #9db8e4;
+text-align: center;
+border: 3px white solid;
+padding: 7px 5px;
+width: 75px;
+/*align-self: center;*/
+display: inline-block;
+
+}
+
+#clearButton:hover {
+  cursor: pointer;
 }
 
 .grow:hover {
