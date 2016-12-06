@@ -1,0 +1,42 @@
+/*#fcdf43 yellow sticky color*/
+
+body {
+  vertical-align: middle;
+  font-family: "Pacifico", sans-serif;
+}
+
+h1 {
+  font-weight: lighter;
+  padding-bottom: 30px;
+}
+
+#container {
+  width: 400px;
+  height:auto;
+  margin: 0 auto;
+  padding-top: 15px;
+  vertical-align: middle;
+  text-align: center;
+  /*background-image: url("../img/sticky.jpg");*/
+  background-size: cover;
+  background-position: center;
+  background-color: #fcdf43;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#addButton {
+font-family: "Oswald", sans-serif;
+display: inline-block;
+/*padding-left: 25px;*/
+margin-left: 15px;
+padding: 7px 5px;
+border-radius: 5px;
+background-color: #9db8e4;
+text-align: center;
+}
+
+form {
+  display: inline-block;
+
+}
