@@ -24,7 +24,7 @@ $( document ).ready(function() {
 
   //Add click listener to '+ List Item' button, append list item on click
   $("#addButton").on("click", function(){
-    var newItem = $('input').val();
+    var newItem = $("input").val();
     //checks for empty submission
     if(newItem !== "") {
       $("ol").append("<li>" + newItem + "</li>");
@@ -62,11 +62,10 @@ $( document ).ready(function() {
   }
 
   //Clear list items and local storage on click
-  $("#clearButton").on("click", function(){
-  //   for (var i = 0; i < $("li").length, i ++){
-  //     $("li")[i].remove();
-  //   }
+  $("#clearButton").on("click", function() {
     localStorage.clear();
+    $("ol").children().remove();
+    listEntry = 0;
   });
 
 });

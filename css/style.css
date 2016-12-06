@@ -7,6 +7,8 @@ body {
 h1 {
   font-weight: lighter;
   padding-bottom: 30px;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 form {
@@ -38,6 +40,11 @@ li:hover {
 ol {
   font-size: 1.5em;
   text-align: left;
+}
+
+.instructions {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 25px;
 }
 
 #container {
